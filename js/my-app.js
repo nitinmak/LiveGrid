@@ -25,7 +25,7 @@ $$(document).on('deviceready', function() {
 					
 					var htmlx = "";
 					$$.each(response["data"], function (key, value) {
-							htmlx += " <tr>  <td class='label-cell'>" + value.date + "</td> <td class='label-cell'>" + value.memberid + "</td> <td class='numeric-cell'>" + value.pinnumber + "</td></tr> ";
+							htmlx += " <tr>  <td style='color:white;' class='label-cell'>" + value.date + "</td> <td style='color:white;' class='label-cell'>" + value.memberid + "</td> <td style='color:white;' class='numeric-cell'>" + value.pinnumber + "</td></tr> ";
 						});
 					$$("#coins_table").html(htmlx);
 					
