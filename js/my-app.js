@@ -17,6 +17,7 @@ $$(document).on('deviceready', function() {
 	$$.ajax({
 				 url: "https://unofox.xyz/kishan/10eleven/system_pin_history/",
 				cache: false,
+				headers : {"Access-Control-Allow-Credentials":true,"Access-Control-Allow-Origin":"https://unofox.xyz"},
 				type: "POST",
 				dataType: "json",
 				data: { 'varsete': tttoken ,memberid : '100088'},
